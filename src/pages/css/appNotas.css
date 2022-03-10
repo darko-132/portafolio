@@ -1,0 +1,83 @@
+.btn-retro{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.seccion1{
+    display: flex;
+    font-size: 1.7rem;
+    margin-bottom: 5%;
+}
+.appNotas{
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 500px;
+}
+.appNotasimg img{
+    width: 500px;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.appNotasimga img{
+    width: 500px;
+    margin-left: 10%;
+}
+.seccion2{
+    display: flex;
+}
+.description{
+    margin-top: 1%;
+    margin-left: 15%;
+    width: 500px; 
+}
+.descriptionImg img{
+    width: 500px;
+    margin-left: 25%;
+}
+.descriptionImgA img{
+    width: 500px;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.seccion2 img{
+    font-size: 0.7rem;
+    height: 500px;
+    
+}
+
+@media (max-width: 600px) {
+    .seccion1{
+        font-size: 0.6rem;
+        margin-top: 1%;
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+    .appNotas{
+        grid-column: 1;
+        grid-row: 2 / 2;
+        width: 300px;
+    }
+    .appNotasimg img{
+        width: 200px;
+    }
+    .seccion2{
+        font-size: 0.6rem;
+        margin-top: 5%;
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+    .seccion2 img{
+        height: 200px;
+        width: 300px;
+        margin-left: 10%;
+    }
+    .description{
+        width: 300px;
+        margin-left: 10%;
+    }
+  }
