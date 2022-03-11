@@ -85,7 +85,14 @@
     }
   }
   @media (min-width: 600px) and (max-width: 1199px) {
-    
+    .btn-retro{
+        margin-top: 2%;
+        margin-left: 4%;
+    }
+    .appNotas{
+        margin-top: 7%;
+        margin-left:4%;
+    }
     .appNotasimg{
     width: 300px;
     }
@@ -112,7 +119,7 @@
     }
     .description{
         width: 650px;
-        margin-left: 10%;
+        margin-left: 4%;
     }
     .description h3{
         margin-bottom: 70px;
