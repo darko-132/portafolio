@@ -46,7 +46,7 @@
     
 }
 
-@media (min-width:320px) and (max-width:479px) {
+@media (min-width:320px) and (max-width:600px) {
     .seccion1{
         font-size: 0.6rem;
         margin-top: 1%;
@@ -84,7 +84,7 @@
         margin-left: 10%;
     }
   }
-  @media (min-width: 500px) and (max-width: 1199px) {
+  @media (min-width: 600px) and (max-width: 1199px) {
     
     .appNotasimg{
     width: 300px;
