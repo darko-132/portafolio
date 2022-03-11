@@ -9,7 +9,7 @@
     margin: 5rem 5rem;
 }
 .btn-cont{
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: 4rem;
     text-align: end;    
 }
@@ -23,6 +23,9 @@ height: 200px;
 }
 button :hover{
     background-color: #6F6F6F;
+}
+.subtitulo{
+    text-align: center;
 }
 .presentacion{
     text-align: center;
@@ -45,6 +48,7 @@ button :hover{
 .container img{
     padding: 5px;
 }
+/* movil */
 @media (min-width:320px) and (max-width:600px) {
     .btn-cont{
         margin-top: 1rem;
@@ -59,14 +63,16 @@ button :hover{
         border-radius: 50%;
         height: 100px;
     }
-    .proyectos{
-        display: block;
-    }
     .subtitulo{
         text-align: center;
         margin-left: 8%;
     }
+    .proyectos{
+        display: block;
+        margin-left: 14%;
+    }
 }
+/* tablet */
 @media (min-width: 600px) and (max-width: 1199px) {
     .btn-cont{
         margin-top: 2rem;
