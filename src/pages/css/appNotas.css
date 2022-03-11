@@ -46,7 +46,7 @@
     
 }
 
-@media (max-width: 600px) {
+@media (min-width:320px) and (max-width:479px) {
     .seccion1{
         font-size: 0.6rem;
         margin-top: 1%;
@@ -67,12 +67,12 @@
         width: 200px;
     }
     .seccion2{
-        font-size: 0.6rem;
-        margin-top: 5%;
-       display: grid;
-       grid-template-columns: repeat(1, 1fr);
-      grid-gap: 10px;
-      grid-auto-rows: minmax(100px, auto);
+    font-size: 0.6rem;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
     }
     .seccion2 img{
         height: 200px;
@@ -84,3 +84,41 @@
         margin-left: 10%;
     }
   }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    
+    .appNotasimg{
+    width: 300px;
+    }
+    .appNotasimg img{
+        margin-top: 50%;
+        margin-left: 6%;
+        width: 250px;
+    }
+    .appNotasimga img{
+        width: 200px;
+    }
+    .seccion2{
+    font-size: 0.6rem;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    }
+    .seccion2 img{
+        height: 200px;
+        width: 300px;
+        margin-left: 10%;
+    }
+    .description{
+        width: 300px;
+        margin-left: 10%;
+    }
+    .description section{
+        margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    }
+}
