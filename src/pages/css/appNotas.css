@@ -132,4 +132,8 @@
     grid-auto-rows: minmax(100px, auto);
     font-size: 1rem;
     }
+    .appNotasimga img{
+        width: 250px;
+        margin-left: 10%;
+    }
 }
