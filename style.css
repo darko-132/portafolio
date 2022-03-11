@@ -75,7 +75,7 @@ button :hover{
 /* tablet */
 @media (min-width: 600px) and (max-width: 1199px) {
     .btn-cont{
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-right: 1.5rem;
         text-align: end;    
     }
