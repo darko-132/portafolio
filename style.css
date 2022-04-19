@@ -5,8 +5,24 @@
     font-family: 'Roboto Slab', serif;
 
 }
+
 .presentacion{
     margin: 5rem 5rem;
+}
+.infomacionPersonal{
+    display: flex;
+}
+.pdf{
+    text-decoration:none;
+    color: #000;
+}
+.pdf:hover{
+    background-color: white;
+    text-decoration:none;
+    color: #000;
+}
+.btn-infor{
+    margin-left: 47rem ;
 }
 .btn-cont{
     margin-top: 1rem;
